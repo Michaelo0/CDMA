@@ -68,9 +68,9 @@ public class CDMA {
                 wtable[i2][j2] = -1;
             } else {
                 wtable[i1][j1] = -1;
-                wtable[i1][j1] = -1;
-                wtable[i1][j1] = -1;
-                wtable[i1][j1] = 1;
+                wtable[i1][j2] = -1;
+                wtable[i2][j1] = -1;
+                wtable[i2][j2] = 1;
             }
             return 0;
         }
